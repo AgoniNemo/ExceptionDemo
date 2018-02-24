@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA975B6F1EC1BD1E00103466 /* AlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA975B6E1EC1BD1E00103466 /* AlertViewManager.m */; };
+		BA975B721EC1C0C800103466 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA975B711EC1C0C800103466 /* AlertView.m */; };
 		BA9CC87F1EADCA74000DA0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC87E1EADCA74000DA0AE /* main.m */; };
 		BA9CC8821EADCA74000DA0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC8811EADCA74000DA0AE /* AppDelegate.m */; };
 		BA9CC8851EADCA75000DA0AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC8841EADCA75000DA0AE /* ViewController.m */; };
@@ -15,6 +17,10 @@
 		BA9CC88D1EADCA75000DA0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9CC88B1EADCA75000DA0AE /* LaunchScreen.storyboard */; };
 		BA9CC8981EADCA75000DA0AE /* exceptionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC8971EADCA75000DA0AE /* exceptionDemoTests.m */; };
 		BA9CC8A31EADCA75000DA0AE /* exceptionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC8A21EADCA75000DA0AE /* exceptionDemoUITests.m */; };
+		BA9CC8B61EADCCB1000DA0AE /* AppDelegate+captureException.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC8B51EADCCB1000DA0AE /* AppDelegate+captureException.m */; };
+		BA9CC8B91EADDAFC000DA0AE /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC8B81EADDAFC000DA0AE /* UncaughtExceptionHandler.m */; };
+		BA9CC8BC1EADDD13000DA0AE /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC8BB1EADDD13000DA0AE /* TestViewController.m */; };
+		BA9CC8C01EADE14F000DA0AE /* XZCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC8BF1EADE14F000DA0AE /* XZCAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA975B6D1EC1BD1E00103466 /* AlertViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewManager.h; sourceTree = "<group>"; };
+		BA975B6E1EC1BD1E00103466 /* AlertViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewManager.m; sourceTree = "<group>"; };
+		BA975B701EC1C0C800103466 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		BA975B711EC1C0C800103466 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 		BA9CC87A1EADCA73000DA0AE /* exceptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exceptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9CC87E1EADCA74000DA0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA9CC8801EADCA74000DA0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,14 @@
 		BA9CC89E1EADCA75000DA0AE /* exceptionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exceptionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9CC8A21EADCA75000DA0AE /* exceptionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exceptionDemoUITests.m; sourceTree = "<group>"; };
 		BA9CC8A41EADCA75000DA0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9CC8B41EADCCB1000DA0AE /* AppDelegate+captureException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+captureException.h"; sourceTree = "<group>"; };
+		BA9CC8B51EADCCB1000DA0AE /* AppDelegate+captureException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+captureException.m"; sourceTree = "<group>"; };
+		BA9CC8B71EADDAFC000DA0AE /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		BA9CC8B81EADDAFC000DA0AE /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		BA9CC8BA1EADDD13000DA0AE /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BA9CC8BB1EADDD13000DA0AE /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BA9CC8BE1EADE14F000DA0AE /* XZCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCAlertView.h; sourceTree = "<group>"; };
+		BA9CC8BF1EADE14F000DA0AE /* XZCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,18 @@
 		BA9CC87C1EADCA73000DA0AE /* exceptionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA9CC8B01EADCAAD000DA0AE /* UncaughtExceptionHandler */,
 				BA9CC8801EADCA74000DA0AE /* AppDelegate.h */,
 				BA9CC8811EADCA74000DA0AE /* AppDelegate.m */,
 				BA9CC8831EADCA74000DA0AE /* ViewController.h */,
 				BA9CC8841EADCA75000DA0AE /* ViewController.m */,
+				BA975B6D1EC1BD1E00103466 /* AlertViewManager.h */,
+				BA975B6E1EC1BD1E00103466 /* AlertViewManager.m */,
+				BA975B701EC1C0C800103466 /* AlertView.h */,
+				BA975B711EC1C0C800103466 /* AlertView.m */,
+				BA9CC8BD1EADE14F000DA0AE /* XZCAlertView */,
+				BA9CC8BA1EADDD13000DA0AE /* TestViewController.h */,
+				BA9CC8BB1EADDD13000DA0AE /* TestViewController.m */,
 				BA9CC8861EADCA75000DA0AE /* Main.storyboard */,
 				BA9CC8891EADCA75000DA0AE /* Assets.xcassets */,
 				BA9CC88B1EADCA75000DA0AE /* LaunchScreen.storyboard */,
@@ -138,6 +164,26 @@
 				BA9CC8A41EADCA75000DA0AE /* Info.plist */,
 			);
 			path = exceptionDemoUITests;
+			sourceTree = "<group>";
+		};
+		BA9CC8B01EADCAAD000DA0AE /* UncaughtExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CC8B41EADCCB1000DA0AE /* AppDelegate+captureException.h */,
+				BA9CC8B51EADCCB1000DA0AE /* AppDelegate+captureException.m */,
+				BA9CC8B71EADDAFC000DA0AE /* UncaughtExceptionHandler.h */,
+				BA9CC8B81EADDAFC000DA0AE /* UncaughtExceptionHandler.m */,
+			);
+			path = UncaughtExceptionHandler;
+			sourceTree = "<group>";
+		};
+		BA9CC8BD1EADE14F000DA0AE /* XZCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CC8BE1EADE14F000DA0AE /* XZCAlertView.h */,
+				BA9CC8BF1EADE14F000DA0AE /* XZCAlertView.m */,
+			);
+			path = XZCAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +253,7 @@
 				TargetAttributes = {
 					BA9CC8791EADCA73000DA0AE = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					BA9CC8921EADCA75000DA0AE = {
 						CreatedOnToolsVersion = 8.3;
@@ -273,9 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9CC8C01EADE14F000DA0AE /* XZCAlertView.m in Sources */,
 				BA9CC8851EADCA75000DA0AE /* ViewController.m in Sources */,
 				BA9CC8821EADCA74000DA0AE /* AppDelegate.m in Sources */,
+				BA975B6F1EC1BD1E00103466 /* AlertViewManager.m in Sources */,
+				BA9CC8BC1EADDD13000DA0AE /* TestViewController.m in Sources */,
+				BA9CC8B61EADCCB1000DA0AE /* AppDelegate+captureException.m in Sources */,
+				BA975B721EC1C0C800103466 /* AlertView.m in Sources */,
 				BA9CC87F1EADCA74000DA0AE /* main.m in Sources */,
+				BA9CC8B91EADDAFC000DA0AE /* UncaughtExceptionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = exceptionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mjwon.exceptionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -437,10 +492,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = exceptionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mjwon.exceptionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -509,6 +567,7 @@
 				BA9CC8A91EADCA75000DA0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA9CC8AA1EADCA75000DA0AE /* Build configuration list for PBXNativeTarget "exceptionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +576,7 @@
 				BA9CC8AC1EADCA75000DA0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA9CC8AD1EADCA75000DA0AE /* Build configuration list for PBXNativeTarget "exceptionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +585,7 @@
 				BA9CC8AF1EADCA75000DA0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

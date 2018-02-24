@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+captureException.h"
+#import "UncaughtExceptionHandler.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+//    [self captureApplication:application didFinishLaunchingWithOptions:launchOptions];
+    InstallUncaughtExceptionHandler();
+    ViewController *v = [[ViewController alloc] init];
+    UINavigationController *n = [[UINavigationController alloc] initWithRootViewController:v];
+    self.window.rootViewController = n;
+    
     return YES;
 }
 

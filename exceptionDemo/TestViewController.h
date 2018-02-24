@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TestViewController.h
 //  exceptionDemo
 //
 //  Created by Mjwon on 2017/4/24.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TestViewController : UIViewController
 
 @end
-
